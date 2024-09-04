@@ -1,0 +1,5 @@
+package packcom.tnsif.dayfive.hierarchicalinheritance;
+
+public class Employee {
+
+}

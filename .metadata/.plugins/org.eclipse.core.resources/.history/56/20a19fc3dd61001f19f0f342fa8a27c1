@@ -1,0 +1,23 @@
+package com.sivabalaji.assignment1.employees;
+
+/**
+ * Represents a manager in the organization.
+ */
+public class Manager extends Employee {
+    private int teamSize;
+
+    // Constructor
+    public Manager(String name, int employeeId, double salary, int teamSize) {
+        super(name, employeeId, salary);
+        this.teamSize = teamSize;
+    }
+
+    // Getter and Setter methods
+    public int getTeamSize() {
+        return teamSize;
+    }
+
+    public void setTeamSize(int teamSize) {
+        this.teamSize = teamSize;
+    }
+}

@@ -1,0 +1,31 @@
+package com.MARAMSIVABALAJI.Assignment;
+
+import com.Msivabalaji.assignment.utilities.EmployeeUtilities;
+import com.sivabalaji.assignment.employees.Developer;
+import com.sivabalaji.assignment.employees.Manager;
+
+public class AssignmentMain {
+
+    public static void main(String[] args) {
+        // Creating instances of Manager and Developer
+        Manager manager = new Manager("Alice", 101, 85000, 10);
+        Developer developer = new Developer("Bob", 102, 70000, "Java");
+
+       
+        EmployeeUtilities utilities = new EmployeeUtilities();
+
+        // Displaying details before salary increment
+        System.out.println("Before Salary Increment:");
+        utilities.printEmployeeDetails(manager);
+        utilities.printEmployeeDetails(developer);
+
+        // Increasing salary by 10%
+        utilities.increaseSalary(manager, 10);
+        utilities.increaseSalary(developer, 10);
+
+        // Displaying details after salary increment
+        System.out.println("\nAfter Salary Increment:");
+        utilities.printEmployeeDetails(manager);
+        utilities.printEmployeeDetails(developer);
+    }
+}

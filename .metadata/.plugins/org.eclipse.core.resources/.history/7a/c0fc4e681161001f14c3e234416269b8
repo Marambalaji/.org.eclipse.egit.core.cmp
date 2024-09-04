@@ -1,0 +1,34 @@
+package com.tnsif.day8.polymorphism;
+
+public class overriding {
+
+	class overloading {
+	    int num1;
+	    int num2;
+	    int result;
+
+	    void sum(int a, int b) {
+	        num1 = a;
+	        num2 = b;
+	        result = num1 + num2;
+	        System.out.println("The result is: " + result);
+	    }
+
+	    public static void main(String[] args) {
+	        MySubclass obj = new MySubclass();
+	        int inta = 10;
+	        int intb = 20;
+
+	        obj.sum(inta, intb); 
+	    }
+	}
+
+	class MySubclass extends overloading {
+	    @Override
+	    void sum(int a, int b) {
+	    
+	        result = num1 * num2;
+	        System.out.println("My custom result is: " + result);
+	    }
+	}
+}

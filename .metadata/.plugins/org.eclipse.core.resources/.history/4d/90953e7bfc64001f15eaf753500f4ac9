@@ -1,0 +1,8 @@
+package com.tnsif.day11.multithearding;
+import com.tnsif.day11.multithearding.ChildThread1;
+public class ThreadLifeCycleDemo {
+public static void main(String[] args) {
+	MyChildThread1 myThread = new MyChildThread1();
+}
+
+}

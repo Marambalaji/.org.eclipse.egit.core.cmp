@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<section name="ImportExportWizard.dialogBounds">
+		</section>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="D:\F Disk\TNSIF\Assignmet2\T030304237_PATHAN NAGOOR BASHA_ASSIGNMENT_2.zip"/>
+			<item value="D:\F Disk\TNSIF\Assignmet2\T030304257_AVULA VISHNU VARDHAN _ASSIGNMENT_2.zip"/>
+			<item value="D:\F Disk\TNSIF\Assignmet2\T030304357_PAMIDAKULA VENKATA SAI_ASSIGNMENT_2.zip"/>
+			<item value="D:\F Disk\TNSIF\Assignmet2\T030304210_YERASI VENU GOPAL REDDY_ASSIGNMENT_2.zip"/>
+			<item value="D:\F Disk\TNSIF\Assignmet2\T030304215_BUDILI JASWANTH REDDY_ASSIGNMENT_2.zip"/>
+			<item value="D:\F Disk\TNSIF\Assignmet2\T030304257_AVULA VISHNU VARDHAN REDDY_ASSIGNMENT_2.zip"/>
+			<item value="D:\F Disk\TNSIF\Assignmet2\T030304358_MALLELA BHARATH_ASSIGNMENT_2.zip"/>
+			<item value="D:\F Disk\TNSIF\Assignmet2\T030304259_ARVETI SATISH BABU_ASSIGNMENT_2.zip"/>
+			<item value="D:\F Disk\TNSIF\Assignmet2\T030304356_MARAM SIVA BALAJI_ASSIGNMENT_2.zip"/>
+			<item value="D:\F Disk\TNSIF\Assignment2\T030304259_ARVETI SATISH BABU_ASSIGNMENT_2.zip"/>
+			<item value="D:\F Disk\TNSIF\Assignment2\T030304257_AVULA VISHNU VARDHAN REDDY_ASSIGNMENT_2.zip"/>
+			<item value="D:\F Disk\TNSIF\Assignment2\T030304317_SURA_VISHNU_VARDHAN_REDDY_ASSIGNMENT_2.zip"/>
+			<item value="D:\F Disk\TNSIF\Assignment2\T030304358_MALLELA BHARATH_ASSIGNMENT2.zip"/>
+			<item value="D:\F Disk\TNSIF\T030304356_MARAM SIVA BALAJI_ASSIGNMENT2.zip"/>
+			<item value="D:\F Disk\TNSIF\T0303040_CSRUTHIKASUBKISHA_ASSIGNMENT1.zip"/>
+			<item value="D:\F Disk\TNSIF\T030304357_PAMIDAKULAVENKATASAI_ASSIGNMENT1.zip"/>
+			<item value="D:\F Disk\TNSIF\T030304210_YERASIVENUGOPALREDDY_ASSIGNMENT1.zip"/>
+			<item value="D:\F Disk\TNSIF\T030304259_ARVETISATISHBABU_ASSIGNMENT1.zip"/>
+			<item value="D:\F Disk\TNSIF\T030304257_AVULAVISHNUVARDHAN_ASSIGNMENT1.zip"/>
+			<item value="D:\F Disk\TNSIF\T030304215_BUDILIJASWANTH_ASSIGNMENT1.zip"/>
+		</list>
+		<section name="ZipFileExportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="619"/>
+			<item key="DIALOG_Y_ORIGIN" value="142"/>
+			<item key="DIALOG_WIDTH" value="805"/>
+			<item key="DIALOG_HEIGHT" value="708"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+	<section name="WorkbenchPreferenceDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="419"/>
+		<item key="DIALOG_Y_ORIGIN" value="70"/>
+		<item key="DIALOG_WIDTH" value="1101"/>
+		<item key="DIALOG_HEIGHT" value="674"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

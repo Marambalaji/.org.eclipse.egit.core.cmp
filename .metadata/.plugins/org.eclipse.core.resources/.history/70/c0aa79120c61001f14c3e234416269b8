@@ -1,0 +1,9 @@
+package packcom.tnsif.dayfive.hierarchicalinheritance;
+
+public class Person {
+
+	public Person(String name, String city) {
+		
+	}
+
+}

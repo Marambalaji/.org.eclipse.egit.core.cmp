@@ -1,0 +1,29 @@
+package com.tnsif.day10.exceptionhandling;
+
+import java.util.Scanner;
+public class Expdemo {
+	public static void main(String[] args) {
+		Scanner scan =new Scanner(System.in);
+		
+	try {
+		System.out.println("Enter the number:");
+		int num=scan.nextInt();
+		if(num%2==0) {
+			System.out.println("It is a even");
+		}
+		else {
+			System.out.println("It is a odd");
+		}
+		
+	}
+	catch(Exception e) 
+	{
+		
+	}
+	finally 
+	{
+		
+	}
+		
+	}
+}

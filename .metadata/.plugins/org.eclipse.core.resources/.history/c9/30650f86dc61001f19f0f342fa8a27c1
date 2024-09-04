@@ -1,0 +1,28 @@
+package com.sivabalaji.assignment1.utilities;
+
+import com.sivabalaji.assignment1.employees.Developer;
+import com.sivabalaji.assignment1.employees.Manager;
+import com.yourname.assignment.employees.Employee;
+
+
+public class EmployeeUtilities {
+
+    public void printEmployeeDetails(Manager manager2) {
+        System.out.println("Employee Name: " + manager2.getName());
+        System.out.println("Employee ID: " + manager2.getEmployeeId());
+        System.out.println("Employee Salary: " + manager2.getSalary());
+
+        if (manager2 instanceof Manager) {
+            Manager manager = (Manager) manager2;
+            System.out.println("Team Size: " + manager.getTeamSize());
+        } else if (manager2 instanceof Developer) {
+            Developer developer = (Developer) manager2;
+            System.out.println("Programming Language: " + developer.getProgrammingLanguage());
+        }
+    }
+
+    public void increaseSalary(Employee employee, double percentage) {
+        double newSalary = employee.getSalary() + (employee.getSalary() * percentage / 100);
+        employee.setSalary(newSalary);
+    }
+}

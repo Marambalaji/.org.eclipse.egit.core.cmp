@@ -1,0 +1,27 @@
+package com.tnsif.day9.Interfaces.wrapperclassesr;
+
+interface parent1{
+	public void show();
+}
+interface parent2{
+	public void disp();
+	
+}
+
+class myclass{
+	public void dispaly() {
+		System.out.println("Method in class");
+	}
+}
+
+class child{
+	
+}
+
+
+public class MultipleinterfaceDemo {
+	public static void main(String[] args) {
+		
+	}
+
+}

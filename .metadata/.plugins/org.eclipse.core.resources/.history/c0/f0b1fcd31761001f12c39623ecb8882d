@@ -1,0 +1,13 @@
+package com.tnsif.day9.Interfaces.wrapperclassesr;
+
+
+
+
+
+
+public class MultipleinterfaceDemo {
+	public static void main(String[] args) {
+		
+	}
+
+}
